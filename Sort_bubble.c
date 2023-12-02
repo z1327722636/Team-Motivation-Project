@@ -1,4 +1,7 @@
 #include"student.h"
+extern int start; // 结构体数组的开头
+extern int end;	  // 结构体数组的结尾
+
 void Sort_bubble(STU *p, int n)
 {
 	STU stu_class_ave[N+10];
